@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Настройки письма
-    $to = 'ваш_email@example.com'; // Замените на ваш email
+    $to = 'asyaramm4@gmail.com'; // Замените на ваш email
     $subject = 'Новая заявка с сайта: ' . $name;
     $headers = "From: $email\r\n";
     $headers .= "Reply-To: $email\r\n";

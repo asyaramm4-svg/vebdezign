@@ -4,35 +4,35 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>теория</title>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="стиль.css">
 </head>
 <body> 
 	<div class="container">
-		<header>
-			<h1>Теория</h1>
-			<nav>
-				<ul class="menu">
-<li><a href="index.html">Главная</a></li>
-<li class="dropdown"><a href="theory.html">Теория</a>
+	<header>
+		<h1>Теория</h1>
+		<nav>
+		<ul class="menu">
+<li><a href="шаг за шагом к пятерке 5 класс.html">Главная</a></li>
+<li class="dropdown"><a href="теория.html">Теория</a>
                 <ul class="dropdown-content">
-                    <li><a href="theory1.html">Натуральные числа</a></li>
-                    <li><a href="theory2.html">Координатная прямая</a></li>
+                    <li><a href="натуральныечислатеория.html">Натуральные числа</a></li>
+                    <li><a href="коорпрям теория.html">Координатная прямая</a></li>
                     <li><a href="#">Что‑то</a></li>
                     <li><a href="#">Что‑то</a></li>
                 </ul>
 				</li>
-<li class="dropdown"><a href="tasks.html" class="active">Задания</a>
+<li class="dropdown"><a href="задания.html" class="active">Задания</a>
 <ul class="dropdown-content">
-                    <li><a href="tasks1.html">Натуральные числа</a></li>
-                    <li><a href="tasks2.html">Координатная прямая</a></li>
+                    <li><a href="натчислазадания.html">Натуральные числа</a></li>
+                    <li><a href="коорпрямзадания.html">Координатная прямая</a></li>
                     <li><a href="#">Что‑то</a></li>
                     <li><a href="#">Что‑то</a></li>
                 </ul>
 				</li>
 <li><a href="#">Тест</a></li>
 </ul>
-</nav>
-</header>
+		</nav>
+	</header>
 <main>
 <section>
 <h2>Натуральные числа</h2>
@@ -64,34 +64,6 @@
 			</div>
 			</ul>
 	</section>
-	<section>
-		<h2>Изображение натуральных чисел точками на координатной прямой</h2>
-			<section class="cards-grid">
-			<ul>
-			<div class="card">
-				<h4>Координатныая прямая </h4>
-				<p>Луч с отмеченным на нем единичным отрезком, точкой начала отсчета, которой соответствует число 0 (нуль), и указанным направлением отсчета.Координатный луч еще называют числовой луч.</p>
-			</div>
-			</ul>
-	</section>
-	<div class="center-image">
-		<figure>
-		<img src="https://avatars.mds.yandex.net/i?id=347c59de1d05e2c80f4ca3b435bb22b0_l-5340768-images-thumbs&n=13" text=Образовательная+иллюстрация" alt="координатная прямая"
-		width="640" height="360">
-		<figcaption>
-		Рисунок 2. Координатная прямая
-		</figcaption>
-		</figure>
-	</div>
-	<ul>
-		<h4> Чтобы определить координату уже отмеченной точки, нужно: </h4>
-		<p> 1. Найти начало отсчёта 0.</p>
-		<p> 2. Определить, в какой стороне от нуля находится точка (справа — координата положительна, слева — отрицательна).</p>
-		<p> 3. Измерить расстояние от точки 0 до данной точки в единичных отрезках.</p>
-		 <h4>Пример записи координаты точки:</h4> 
-		 <p>если точка A находится справа от нуля на расстоянии трёх единичных отрезков, её координата — A(3).
-		</p>
-	</ul>
 </section>
 </section>
 </div>
