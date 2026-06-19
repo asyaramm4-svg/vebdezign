@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Моя тема шаг за шагом к 5</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body> 
+
+<div class="container">
+	<header>
+		<h1>Название урока / темы проверка</h1>
+		<nav>
+			<ul class="menu">
+<li><a href="index.html">Главная</a></li>
+<li class="dropdown"><a href="theory.html">Теория</a>
+                <ul class="dropdown-content">
+                    <li><a href="натуральныечислатеория.html">Натуральные числа</a></li>
+                    <li><a href="коорпрям теория.html">Координатная прямая</a></li>
+                    <li><a href="#">Что‑то</a></li>
+                    <li><a href="#">Что‑то</a></li>
+                </ul>
+				</li>
+<li class="dropdown"><a href="задания.html" class="active">Задания</a>
+<ul class="dropdown-content">
+                    <li><a href="натчислазадания.html">Натуральные числа</a></li>
+                    <li><a href="коорпрямзадания.html">Координатная прямая</a></li>
+                    <li><a href="#">Что‑то</a></li>
+                    <li><a href="#">Что‑то</a></li>
+                </ul>
+				</li>
+<li><a href="#">Тест</a></li>
+</ul>
+		</nav>
+	</header>
+
+<main>
+	<section>
+		<h2>Натуральные числа</h2>
+		<p> Изучение натуральных чисел закладывает фундамент всей арифметики.</p>
+		<div class="center-image">
+			<figure>
+				<img src="https://avatars.mds.yandex.net/i?id=c48a3f16dd4d8cc968ac87dda3bc2d2c_l-12856446-images-thumbs&n=13"
+				width="640" height="480" alt="натуральные числа">
+				<figcaption>
+					Рисунок 1. натуральные числа
+				</figcaption>
+			</figure>
+		</div>
+	</section>
+	<section class="cards-grid">
+		<h3>Ключевые понятия</h3>
+			<ul>
+			<div class="card">
+				<h4> Натуральное число </h4>
+				<p>Число, возникающее естественным образом при счёте (1, 2, 3, …) или при нумерации (порядковые номера).</p>
+			</div>
+			<div class="card">
+				<h4> Ряд натуральных чисел </h4>
+				<p>Бесконечная последовательность 1, 2, 3, 4, 5, …, в которой каждое следующее число на единицу больше предыдущего.</p>
+			</div>
+			<div class="card">
+				<h4> Разряды и классы </h4>
+				<p>Принцип позиционной десятичной записи, где значение цифры зависит от её места (единицы, десятки, сотни и т.д.)</p>
+			</div>
+			</ul>
+	</section>
+	<section>
+		<h2>Изображение натуральных чисел точками на координатной прямой</h2>
+			<section class="cards-grid">
+			<ul>
+			<div class="card">
+				<h4>Координатныая прямая </h4>
+				<p>Луч с отмеченным на нем единичным отрезком, точкой начала отсчета, которой соответствует число 0 (нуль), и указанным направлением отсчета.Координатный луч еще называют числовой луч.</p>
+			</div>
+			</ul>
+			</section>
+	<div class="center-image">
+		<figure>
+		<img src="https://avatars.mds.yandex.net/i?id=347c59de1d05e2c80f4ca3b435bb22b0_l-5340768-images-thumbs&n=13"  alt="координатная прямая"
+		width="640" height="360">
+		<figcaption>
+		Рисунок 2. Координатная прямая
+		</figcaption>
+		</figure>
+	</div>
+	<ul>
+		<h4> Чтобы определить координату уже отмеченной точки, нужно: </h4>
+		<p> 1. Найти начало отсчёта 0.</p>
+		<p> 2. Определить, в какой стороне от нуля находится точка (справа — координата положительна, слева — отрицательна).</p>
+		<p> 3. Измерить расстояние от точки 0 до данной точки в единичных отрезках.</p>
+		 <h4>Пример записи координаты точки:</h4> 
+		 <p>если точка A находится справа от нуля на расстоянии трёх единичных отрезков, её координата — A(3).
+		</p>
+	</ul>
+	<section class="test-section">
+		<h2> Тест</h2>
+		<p> Ответьте на вопросы</p>
+			<form action="send_form.php" method="post">
+			<div class="form-group">
+				<label for="name">Ваше имя:</label>
+				<input type="text" id="name" name="student_name" placeholder="Например: Анна" required>
+			</div>
+			<div class="form-group">
+				<label>Что такое натуральное число?</label>
+				<div class="radio-group">
+					<label><input type="radio" name="нч_question" value="program"> числа используемые при счете (1,2,3,4 и тд)</label>
+					<label><input type="radio" name="нч_question" value="markup"> числа используемые при счете (0,1,2,3,4 и тд)</label>
+					<label><input type="radio" name="нч_question" value="style"> целые числа (1,2,3,4 и тд)</label>
+				</div>
+			</div>
+			<div class="form-group">
+			<label>Что отдичает координатную прямую от простой прямой?</label>
+				<div class="checkbox-group">
+				<label><input type="checkbox" name="methods" value="flipped"> начало отсчета</label>
+				<label><input type="checkbox" name="methods" value="gamification"> направление</label>
+				<label><input type="checkbox" name="methods" value="project"> единичный отрезок</label>
+				</div>
+			</div>
+			<div class="form-group">
+			<label for="comment">Ваш отзыв о занятии:</label>
+			<textarea id="comment" rows="4" placeholder="Напишите, что понравилось или что улучшить..."></textarea>
+			</div>
+			<button type="submit">Отправить ответы</button>
+			</form>
+		
+		</section>
+	<div class="task">
+		<h4>Задание 1: </h4>
+		<p>Найдите координаты точек на координатной прямой</p> 
+		<figure>
+			<img src="https://gdz-spishy.ru/reshebniki/matematika/6/dorofeev/zad/14.png" alt="найдите координаты точек"
+			width="727" height="217">
+		</figure>
+	</div>
+	<div class="task">
+		<h4>Задание 2: </h4> 
+		<p>Отметьте на координатной прямой точки, соответствующие числам: 2, 4, 5, 8, 11.</p> 
+	</div>
+	
+	</section>
+	<footer>
+		<div class="footer-content">
+			<p> в 2025, Учебный проект по математике </p>
+			<p> Создано в рамках дисциплины "Веб-дизайн в разработке ЦОР"</p> 
+			<p> <a href="#">Политика конфиденциальности </a> | <a href="#">Контакты</a></p>
+		</div>
+		</footer>
+</main>
+</div>
+
+</body> 
+</html>
